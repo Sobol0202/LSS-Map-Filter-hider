@@ -7,4 +7,8 @@
 // @grant       none
 // ==/UserScript==
 
-var test = document.getElementsByClassName('leaflet-control-layers-toggle'); for (var index = 0; index < test.length; index++) { test[index].remove(); }
+var test = document.getElementsByClassName('leaflet-control-layers-toggle');
+  for (var index = 0; 
+       index < test.length; index++) 
+          { test[index].remove(); 
+}
